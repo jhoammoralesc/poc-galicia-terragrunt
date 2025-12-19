@@ -1,0 +1,14 @@
+# Environment files with secrets
+**/.env
+*.env
+.env.*
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terragrunt-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
