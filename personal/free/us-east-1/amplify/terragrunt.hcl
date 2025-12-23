@@ -3,7 +3,9 @@ include "root" {
 }
 
 terraform {
-  source = "../../../../../infrastructure-iac-terraform-modules//aws-amplify"
+  source = "https://github.com/jhoammoralesc/poc-galicia-terraform-modules.git//aws-amplify"
+}
+
 }
 
 dependency "apprunner" {

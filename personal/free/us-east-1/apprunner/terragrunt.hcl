@@ -3,7 +3,8 @@ include "root" {
 }
 
 terraform {
-  source = "../../../../../infrastructure-iac-terraform-modules//aws-apprunner-free"
+  source = "https://github.com/jhoammoralesc/poc-galicia-terraform-modules.git//aws-apprunner-free"
+}
 }
 
 locals {

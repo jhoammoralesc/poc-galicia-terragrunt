@@ -21,7 +21,7 @@ locals {
 
   # Expose the base source URL so different versions of the module can be deployed in different environments. This will
   # be used to construct the terraform block in the child terragrunt configurations.
-  base_source_url = "../../../../../infrastructure-iac-terraform-modules//aws-amplify"
+  base_source_url = "https://github.com/jhoammoralesc/poc-galicia-terraform-modules.git//aws-amplify"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
